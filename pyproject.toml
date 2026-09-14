@@ -5,3 +5,6 @@ requires-python = ">=3.11"
 
 [tool.setuptools.packages.find]
 include = ["contest_kit*"]
+
+[tool.pytest.ini_options]
+addopts = "-q -p no:asyncio"

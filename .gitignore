@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Test / tooling cache
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Du lieu va ket qua: khong day len GitHub
+data/
+outputs/
+contest_kit/outputs/
